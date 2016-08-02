@@ -5,14 +5,24 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         Stats s = new Stats();
-        s.setGender("Male");
-        s.setWeight(200);
-        s.setHeight(600);
+        s.setGender("Female");
+        s.setWeight(125);
+        s.setHeight(170);
 
         Profile p = new Profile();
         p.setName("Jennifer");
         p.setAge(900);
         p.setSingle(false);
+
+        Email e = new Email();
+        e.setSubject("This is urgent");
+        e.setSender("jennichang02@gmail.com");
+        e.setRecipient("");
+        e.setSentTime(143223);
+        e.setUrgent(true);
+
+        /*System.out.println("Stats are " + s.gender + ", " + s.weight + "lbs., " + s.height + "cm");
+        System.out.println("Your profile is " + p.name + ", " + p.age + "yrs. old, " + "Single? " + p.single);*/
 
         System.out.println("Area of circle equals " + CustomMath.getArea(5));
         System.out.println("Hypotenuse of triangle equals " + CustomMath.getHypotenuse(10, 6));

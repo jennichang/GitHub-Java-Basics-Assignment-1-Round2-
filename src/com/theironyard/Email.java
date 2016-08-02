@@ -23,7 +23,7 @@ public class Email {
     }
 
     why is this happening?  if i only use one = sign then i get an error, using 2 resolves the error
-    -- can do either == or != */
+    -- answer: because comparing, can do either == or != */
 
     public void setSubject(String subject) {
         if (subject != "") {
