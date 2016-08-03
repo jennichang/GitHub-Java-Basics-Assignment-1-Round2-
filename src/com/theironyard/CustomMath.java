@@ -28,7 +28,6 @@ public class CustomMath {
         return root1;
     }
 
-
     public static double getQuadraticRoot2(double a, double b, double c) {
         double root2;
         root2 = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);

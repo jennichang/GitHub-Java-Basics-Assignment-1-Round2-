@@ -26,7 +26,7 @@ public class Profile {
         } else if (age > 125) {
             System.err.println("Age too old!");
     } else {
-        this.age = age;
+            this.age = age;
         }
 }
 
