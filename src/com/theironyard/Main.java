@@ -24,8 +24,8 @@ public class Main {
         /*System.out.println("Stats are " + s.gender + ", " + s.weight + "lbs., " + s.height + "cm");
         System.out.println("Your profile is " + p.name + ", " + p.age + "yrs. old, " + "Single? " + p.single);*/
 
-        System.out.println("Area of circle equals " + CustomMath.getArea(5));
-        System.out.println("Hypotenuse of triangle equals " + CustomMath.getHypotenuse(10, 6));
+        System.out.println("Area of circle equals " + CustomMath.getArea(9));
+        System.out.println("Hypotenuse of triangle equals " + CustomMath.getHypotenuse(15, 6));
 
 
          /* if (CustomMath.getQuadDiscr(3, 4, 4) > 0) {
